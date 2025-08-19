@@ -7,6 +7,7 @@
     <meta name="description" content="Damien Z. Padonou – FullStack Developer, AI Engineer, MSc in Cybersecurity. Expert in distributed systems, autonomous AI agents, and secure cloud solutions.">
     <meta name="keywords" content="Damien Z. Padonou, FullStack Developer, AI Engineer, Cybersecurity, Distributed Systems, LLM, Cloud, Python, React, DevOps, Romania, France, Bénin">
     <meta name="author" content="Damien Z. Padonou">
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D4D03AQGn4F4DggFMRw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686568902592?e=1758758400&v=beta&t=3IpDJc_Dgk1eMlrY0gN_lWlkJotbIN3WxNtT_xlbFlA" type="image/x-icon">
     <style>
         * {
             margin: 0;
