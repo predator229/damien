@@ -653,13 +653,13 @@
         <p style="font-size: 1.2rem; margin-bottom: 3rem; color: #b0b0b0;" data-translate="cta.subtitle">
             Parlons de votre prochain projet d'innovation technologique
         </p>
-        <a href="mailto:damienzipadonou@gmail.com" class="cta-button" data-translate="cta.email">📧 Me Contacter</a>
-        <a href="https://www.linkedin.com/in/damien-padonou/" class="cta-button">💼 LinkedIn</a>
-        <a href="https://github.com/damienpadonou" class="cta-button">💻 GitHub</a>
+        <a href="mailto:damienzpadonou@gmail.com" class="cta-button" data-translate="cta.email">📧 Me Contacter</a>
+        <a href="https://www.linkedin.com/in/damien-padonou-493658181" class="cta-button">💼 LinkedIn</a>
+        <a href="https://github.com/predator229" class="cta-button">💻 GitHub</a>
     </section>
 
     <footer class="footer">
-        <p>&copy; 2025 Damien Padonou • Cluj-Napoca, Roumanie • +40736141740</p>
+        <p>&copy; <?php echo date('Y'); ?> Damien Padonou • Cluj-Napoca, Roumanie • all rights reserved</p>
         <p style="margin-top: 1rem; color: #00ffff;" data-translate="footer.education">Master en Sécurité Informatique • UTCN 2024</p>
     </footer>
 
@@ -1074,6 +1074,6 @@
         🚀 Salut ! Tu inspectés le code ?
         👨‍💻 Je suis Damien Z. Padonou - FullStack Developer & AI Engineer
         💡 Si tu veux collaborer, contacte-moi : damienzipadonou@gmail.com
-        🌟 GitHub: https://github.com/damienpadonou
+        🌟 GitHub: https://github.com/predator229
         `);
     </script>
