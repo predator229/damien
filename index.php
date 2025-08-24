@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Damien Z. Padonou – FullStack Developer, AI Engineer & Cybersecurity MSc</title>
+    <title>Damien Z. PAD – FullStack Developer, AI Engineer & Cybersecurity MSc</title>
     <meta name="description" content="Damien Z. Padonou – FullStack Developer, AI Engineer, MSc in Cybersecurity. Expert in distributed systems, autonomous AI agents, and secure cloud solutions.">
     <meta name="keywords" content="Damien Z. Padonou, FullStack Developer, AI Engineer, Cybersecurity, Distributed Systems, LLM, Cloud, Python, React, DevOps, Romania, France, Bénin">
     <meta name="author" content="Damien Z. Padonou">
