@@ -589,12 +589,24 @@
         <h2 class="section-title" data-translate="experience.title">Expérience Professionnelle</h2>
         <div class="experience-timeline">
             <div class="timeline-line"></div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="job-title">Angular FullStack Developer</div>
+                    <div class="company" data-translate="experience.yuba.company">YUBA • Cluj-Napoca, Roumanie • Septembre 2025 - Present</div>
+                    <ul class="achievements">
+                        <ul class="achievements">
+                            <li data-translate="experience.yuba.task1"> Conception et développement des interfaces utilisateur et des applications web interactives en utilisant les technologies Angular, Material Design, Store, Signal ... </li>
+                        </ul>
+                </div>
+            </div>
             
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="job-title">FullStack Developer</div>
-                    <div class="company" data-translate="experience.cbms.company">CBMS SOFTWARE • Cluj-Napoca, Roumanie • Août 2022 - Présent</div>
+                    <div class="company" data-translate="experience.cbms.company">CBMS SOFTWARE • Cluj-Napoca, Roumanie • Août 2022 - Août 2025</div>
                     <ul class="achievements">
                         <ul class="achievements">
                             <li data-translate="experience.cbms.task1"> Conception et développement d'applications web interactives en utilisant les technologies HTML, CSS, JavaScript et PHP. </li>
@@ -611,7 +623,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="job-title" data-translate="experience.cyberdev.title">FullStack Developer & Founder (Personal project)</div>
-                    <div class="company" data-translate="experience.cyberdev.company">CYBERDEV SOLUTIONS • Cluj-Napoca, Roumanie • Juin 2020 - Présent</div>
+                    <div class="company" data-translate="experience.cyberdev.company">CYBERSHIELD DEV SOLUTIONS • Cluj-Napoca, Roumanie • Juin 2020 - Présent</div>
                     <ul class="achievements">
                         <li data-translate="experience.cyberdev.task1">🏥 Conception d’une architecture sécurisée et évolutive pour une plateforme de livraison pharmaceutique (ctmPharma), incluant la gestion des commandes, un panneau de gestion pour chaque acteur du projet (Livreur - Client - Admin - Pharmacie), les paiements, la géolocalisation et la conformité au RGPD.</li>
                         <li data-translate="experience.cyberdev.task2">🤖 Intégration de modèles de langage locaux (LLM) pour la génération automatique de schémas de base de données, code backend (API Python) et interfaces React, orchestrés en local avec Ollama.</li>
@@ -698,13 +710,15 @@
                 'skills.english': '🇬🇧 Anglais (Pro)',
                 'skills.romanian': '🇷🇴 Roumain (Inter)',
                 'experience.title': 'Expérience Professionnelle',
-                'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, Roumanie • Août 2022 - Présent',
+                'experience.yuba.company': 'YUBA • Cluj-Napoca, Roumanie • Septembre 2025 - Présent',
+                'experience.yuba.task1': 'Conception et développement des interfaces utilisateur et des applications web interactives en utilisant les technologies Angular, Material Design, Store, Signal ...',
+                'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, Roumanie • Août 2022 - Aout 2025',
                 'experience.cbms.task1': 'Création d\'applications web interactives (HTML, CSS, JavaScript, PHP)',
                 'experience.cbms.task2': 'Développement de services distants en Python',
                 'experience.cbms.task3': 'Maintenance d\'APIs pour échange de données temps réel',
                 'experience.cbms.task4': 'Intégration de solutions cloud et on-premises',
                 'experience.cyberdev.title': 'FullStack Developer & Founder  (Projet personnel)',
-                'experience.cyberdev.company': 'CYBERDEV SOLUTIONS • Cluj-Napoca, Roumanie • Juin 2020 - Présent',
+                'experience.cyberdev.company': 'CYBERSHIELD DEV SOLUTIONS • Cluj-Napoca, Roumanie • Juin 2020 - Présent',
                 "experience.cyberdev.task1": "🏥 Conception d’une architecture sécurisée et évolutive pour une plateforme de livraison pharmaceutique (ctmPharma), incluant la gestion des commandes, un panneau de gestion pour chaque acteur du projet (Livreur - Client - Admin - Pharmacie), les paiements, la géolocalisation et la conformité au RGPD.",
                 "experience.cyberdev.task2": "🤖 Intégration de modèles de langage locaux (LLM) pour la génération automatique de schémas de base de données, code backend (API Python) et interfaces React, orchestrés en local avec Ollama.",
                 "experience.cyberdev.task3": "📊 Développement d'une plateforme complète de gestion d’activité (izyStock) : gestion des utilisateurs, produits, inventaire, droits d’accès, statistiques et logs d’activité en temps réel.",
@@ -755,7 +769,9 @@
                 'skills.english': '🇬🇧 English (Pro)',
                 'skills.romanian': '🇷🇴 Romanian (Inter)',
                 'experience.title': 'Professional Experience',
-                'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, Romania • August 2022 - Present',
+                'experience.yuba.company': 'YUBA • Cluj-Napoca, Romania • September 2025 - Present',
+                'experience.yuba.task1': 'Design and development of user interfaces and interactive web applications using Angular, Material Design, Store, Signal technologies...',
+                'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, Romania • August 2022 - August 2025',
                 "experience.cbms.task1": "Design and development of interactive web applications using HTML, CSS, JavaScript, and PHP.",
                 "experience.cbms.task2": "Creation of custom modules and advanced feature customization based on specific client requirements.",
                 "experience.cbms.task3": "Development of remote services in Python to automate business processes and ensure solution scalability.",
@@ -763,7 +779,7 @@
                 "experience.cbms.task5": "Integration of third-party APIs, including logistics services like Glovo, Tazz, etc., to enhance platform functionality.",
                 "experience.cbms.task6": "Deployment and integration of cloud solutions to ensure service availability, security, and scalability.",
                 'experience.cyberdev.title': 'FullStack Developer & Founder (Personal project)',
-                'experience.cyberdev.company': 'CYBERDEV SOLUTIONS • Cluj-Napoca, Romania • June 2020 - Present',
+                'experience.cyberdev.company': 'CYBERSHIELD DEV SOLUTIONS • Cluj-Napoca, Romania • June 2020 - Present',
                 "experience.cyberdev.task1": "🏥 Design of a secure and scalable architecture for a pharmaceutical delivery platform (ctmPharma), including order management, an admin dashboard for each project actor (Courier - Client - Admin - Pharmacy), payments, geolocation, and GDPR compliance.",
                 "experience.cyberdev.task2": "🤖 Integration of local language models (LLMs) for automatic generation of database schemas, backend code (Python APIs), and React frontends, orchestrated locally using Ollama.",
                 "experience.cyberdev.task3": "📊 Development of a complete business management platform (izystock): user, product and inventory management, access rights, real-time stats, and activity logs.",
@@ -814,7 +830,9 @@
                 'skills.english': '🇬🇧 Engleză (Pro)',
                 'skills.romanian': '🇷🇴 Română (Inter)',
                 'experience.title': 'Experiența Profesională',
-                'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, România • August 2022 - Prezent',
+                'experience.yuba.company': 'YUBA • Cluj-Napoca, România • Septembrie 2025 - Prezent',
+                'experience.yuba.task1': 'Proiectarea și dezvoltarea interfețelor utilizator și a aplicațiilor web interactive utilizând tehnologiile Angular, Material Design, Store, Signal...',
+                'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, România • August 2022 - August 2025',
                 "experience.cbms.task1": "Conceperea și dezvoltarea aplicațiilor web interactive utilizând tehnologiile HTML, CSS, JavaScript și PHP.",
                 "experience.cbms.task2": "Crearea de module personalizate și adaptarea avansată a funcționalităților conform cerințelor specifice ale clienților.",
                 "experience.cbms.task3": "Dezvoltarea serviciilor la distanță în Python pentru automatizarea proceselor de afaceri și asigurarea scalabilității soluțiilor.",
@@ -822,7 +840,7 @@
                 "experience.cbms.task5": "Integrarea API-urilor terțe, inclusiv servicii logistice precum Glovo, Tazz etc., pentru a extinde funcționalitățile platformelor.",
                 "experience.cbms.task6": "Implementarea și integrarea soluțiilor cloud pentru a asigura disponibilitatea, securitatea și scalabilitatea serviciilor.",
                 'experience.cyberdev.title': 'Dezvoltator FullStack & Fondator (Proiect personal)',
-                'experience.cyberdev.company': 'CYBERDEV SOLUTIONS • Cluj-Napoca, România • Iunie 2020 - Prezent',
+                'experience.cyberdev.company': 'CYBERSHIELD DEV SOLUTIONS • Cluj-Napoca, România • Iunie 2020 - Prezent',
                 "experience.cyberdev.task1": "🏥 Proiectarea unei arhitecturi sigure și scalabile pentru o platformă de livrare farmaceutică (ctmPharma), incluzând gestionarea comenzilor, o platformă de administrare pentru fiecare actor implicat (Livrator - Client - Admin - Farmacie), plăți, geolocalizare și conformitate cu GDPR.",
                 "experience.cyberdev.task2": "🤖 Integrarea modelelor locale de limbaj (LLM) pentru generarea automată a schemelor de baze de date, codului backend (API Python) și interfețelor React, orchestrate local cu Ollama.",
                 "experience.cyberdev.task3": "📊 Dezvoltarea unei platforme complete de gestionare a afacerii: utilizatori, produse, inventar, drepturi de acces, statistici și jurnale de activitate în timp real.",
