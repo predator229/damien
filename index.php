@@ -597,11 +597,18 @@
                     <div class="company" data-translate="experience.yuba.company">YUBA • Cluj-Napoca, Roumanie • Septembre 2025 - Present</div>
                     <ul class="achievements">
                         <ul class="achievements">
-                            <li data-translate="experience.yuba.task1"> Conception et développement des interfaces utilisateur et des applications web interactives en utilisant les technologies Angular, Material Design, Store, Signal ... </li>
+                            <li data-translate="experience.yuba.task1">Architecture d'interfaces réactives avec Angular 21 Signals, NgRx Store + Effects et RxJS pour la gestion d'états et des flux asynchrones complexes.</li>
+                            <li data-translate="experience.yuba.task2">Conception et industrialisation d'un design system d'entreprise (yuba-design-system) basé sur Angular Material, partagé entre deux applications dans un monorepo Nx (espace client + back-office).</li>
+                            <li data-translate="experience.yuba.task3">Développement d'un modeleur de workflows BPMN visuel avec bpmn-js et Camunda moddle : auto-layout, copier-coller natif, minimap, palettes personnalisées et redimensionnement de tâches.</li>
+                            <li data-translate="experience.yuba.task4">Intégration d'ag-Grid Enterprise et ag-Charts Enterprise pour des tableaux de bord analytiques à forte volumétrie, complétés par gridstack pour des layouts drag-and-drop.</li>
+                            <li data-translate="experience.yuba.task5">Embarquement de l'éditeur Monaco pour le scripting in-app, de Quill pour l'édition riche, et de mathjs pour l'évaluation de formules dynamiques.</li>
+                            <li data-translate="experience.yuba.task6">Mise en place d'exports multi-formats : PDF (jsPDF + autoTable), Excel (xlsx-js-style) et capture DOM (html2canvas).</li>
+                            <li data-translate="experience.yuba.task7">Internationalisation avec ngx-translate, recherche fuzzy avec Fuse.js, et sécurisation du rendu HTML avec DOMPurify.</li>
+                            <li data-translate="experience.yuba.task8">Livraison conteneurisée : build multi-étapes Docker servi par nginx, CI/CD via GitHub Actions.</li>
                         </ul>
                 </div>
             </div>
-            
+
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
@@ -711,7 +718,14 @@
                 'skills.romanian': '🇷🇴 Roumain (Inter)',
                 'experience.title': 'Expérience Professionnelle',
                 'experience.yuba.company': 'YUBA • Cluj-Napoca, Roumanie • Septembre 2025 - Présent',
-                'experience.yuba.task1': 'Conception et développement des interfaces utilisateur et des applications web interactives en utilisant les technologies Angular, Material Design, Store, Signal ...',
+                'experience.yuba.task1': 'Architecture d\'interfaces réactives avec Angular 21 Signals, NgRx Store + Effects et RxJS pour la gestion d\'états et des flux asynchrones complexes.',
+                'experience.yuba.task2': 'Conception et industrialisation d\'un design system d\'entreprise (yuba-design-system) basé sur Angular Material, partagé entre deux applications dans un monorepo Nx (espace client + back-office).',
+                'experience.yuba.task3': 'Développement d\'un modeleur de workflows BPMN visuel avec bpmn-js et Camunda moddle : auto-layout, copier-coller natif, minimap, palettes personnalisées et redimensionnement de tâches.',
+                'experience.yuba.task4': 'Intégration d\'ag-Grid Enterprise et ag-Charts Enterprise pour des tableaux de bord analytiques à forte volumétrie, complétés par gridstack pour des layouts drag-and-drop.',
+                'experience.yuba.task5': 'Embarquement de l\'éditeur Monaco pour le scripting in-app, de Quill pour l\'édition riche, et de mathjs pour l\'évaluation de formules dynamiques.',
+                'experience.yuba.task6': 'Mise en place d\'exports multi-formats : PDF (jsPDF + autoTable), Excel (xlsx-js-style) et capture DOM (html2canvas).',
+                'experience.yuba.task7': 'Internationalisation avec ngx-translate, recherche fuzzy avec Fuse.js, et sécurisation du rendu HTML avec DOMPurify.',
+                'experience.yuba.task8': 'Livraison conteneurisée : build multi-étapes Docker servi par nginx, CI/CD via GitHub Actions.',
                 'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, Roumanie • Août 2022 - Aout 2025',
                 'experience.cbms.task1': 'Création d\'applications web interactives (HTML, CSS, JavaScript, PHP)',
                 'experience.cbms.task2': 'Développement de services distants en Python',
@@ -770,7 +784,14 @@
                 'skills.romanian': '🇷🇴 Romanian (Inter)',
                 'experience.title': 'Professional Experience',
                 'experience.yuba.company': 'YUBA • Cluj-Napoca, Romania • September 2025 - Present',
-                'experience.yuba.task1': 'Design and development of user interfaces and interactive web applications using Angular, Material Design, Store, Signal technologies...',
+                'experience.yuba.task1': 'Architected reactive UIs with Angular 21 Signals, NgRx Store + Effects and RxJS for complex state and async flows.',
+                'experience.yuba.task2': 'Designed and shipped an enterprise design system (yuba-design-system) on top of Angular Material, shared across two applications in an Nx monorepo (customer workspace + back-office).',
+                'experience.yuba.task3': 'Built a visual BPMN workflow modeler with bpmn-js and Camunda moddle: auto-layout, native copy-paste, minimap, custom palettes and task resizing.',
+                'experience.yuba.task4': 'Integrated ag-Grid Enterprise and ag-Charts Enterprise for high-volume analytics dashboards, plus gridstack for drag-and-drop layouts.',
+                'experience.yuba.task5': 'Embedded the Monaco editor for in-app scripting, Quill for rich-text editing, and mathjs for dynamic formula evaluation.',
+                'experience.yuba.task6': 'Implemented multi-format exports: PDF (jsPDF + autoTable), Excel (xlsx-js-style) and DOM capture (html2canvas).',
+                'experience.yuba.task7': 'Internationalization with ngx-translate, fuzzy search with Fuse.js, and HTML rendering hardening with DOMPurify.',
+                'experience.yuba.task8': 'Containerized delivery: Docker multi-stage build served via nginx, CI/CD via GitHub Actions.',
                 'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, Romania • August 2022 - August 2025',
                 "experience.cbms.task1": "Design and development of interactive web applications using HTML, CSS, JavaScript, and PHP.",
                 "experience.cbms.task2": "Creation of custom modules and advanced feature customization based on specific client requirements.",
@@ -831,7 +852,14 @@
                 'skills.romanian': '🇷🇴 Română (Inter)',
                 'experience.title': 'Experiența Profesională',
                 'experience.yuba.company': 'YUBA • Cluj-Napoca, România • Septembrie 2025 - Prezent',
-                'experience.yuba.task1': 'Proiectarea și dezvoltarea interfețelor utilizator și a aplicațiilor web interactive utilizând tehnologiile Angular, Material Design, Store, Signal...',
+                'experience.yuba.task1': 'Arhitecturarea interfețelor reactive cu Angular 21 Signals, NgRx Store + Effects și RxJS pentru gestionarea stărilor și a fluxurilor asincrone complexe.',
+                'experience.yuba.task2': 'Proiectarea și industrializarea unui design system enterprise (yuba-design-system) bazat pe Angular Material, partajat între două aplicații într-un monorepo Nx (spațiu client + back-office).',
+                'experience.yuba.task3': 'Dezvoltarea unui modelator vizual de workflow-uri BPMN cu bpmn-js și Camunda moddle: auto-layout, copy-paste nativ, minimap, palete personalizate și redimensionare de task-uri.',
+                'experience.yuba.task4': 'Integrarea ag-Grid Enterprise și ag-Charts Enterprise pentru dashboard-uri analitice cu volum mare de date, plus gridstack pentru layout-uri drag-and-drop.',
+                'experience.yuba.task5': 'Înglobarea editorului Monaco pentru scripting in-app, Quill pentru editare rich-text și mathjs pentru evaluarea formulelor dinamice.',
+                'experience.yuba.task6': 'Implementarea exporturilor multi-format: PDF (jsPDF + autoTable), Excel (xlsx-js-style) și captură DOM (html2canvas).',
+                'experience.yuba.task7': 'Internaționalizare cu ngx-translate, căutare fuzzy cu Fuse.js și securizarea randării HTML cu DOMPurify.',
+                'experience.yuba.task8': 'Livrare containerizată: build Docker multi-stage servit prin nginx, CI/CD via GitHub Actions.',
                 'experience.cbms.company': 'CBMS SOFTWARE • Cluj-Napoca, România • August 2022 - August 2025',
                 "experience.cbms.task1": "Conceperea și dezvoltarea aplicațiilor web interactive utilizând tehnologiile HTML, CSS, JavaScript și PHP.",
                 "experience.cbms.task2": "Crearea de module personalizate și adaptarea avansată a funcționalităților conform cerințelor specifice ale clienților.",
