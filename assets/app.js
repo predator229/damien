@@ -1,4 +1,8 @@
 const translations = window.TRANSLATIONS;
+
+// Keys whose translations intentionally contain markup. Every other key is
+// rendered as plain text, so a translation can never inject HTML.
+const HTML_TRANSLATION_KEYS = new Set(['about.specialty']);
 let currentLang = 'fr';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -53,7 +57,12 @@ function translatePage() {
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[currentLang] && translations[currentLang][key]) {
-            element.innerHTML = translations[currentLang][key];
+            const value = translations[currentLang][key];
+            if (HTML_TRANSLATION_KEYS.has(key)) {
+                element.innerHTML = value;
+            } else {
+                element.textContent = value;
+            }
         }
     });
 }
