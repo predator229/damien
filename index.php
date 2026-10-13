@@ -244,7 +244,7 @@
         <p style="font-size: 1.2rem; margin-bottom: 3rem; color: #b0b0b0;" data-translate="cta.subtitle">
             Parlons de votre prochain projet d'innovation technologique
         </p>
-        <a href="mailto:damienzpadonou@gmail.com" class="cta-button" data-translate="cta.email">📧 Me Contacter</a>
+        <a href="#contact" class="cta-button" data-translate="cta.email" data-email>📧 Me Contacter</a>
         <a href="https://www.linkedin.com/in/damien-padonou-493658181" class="cta-button">💼 LinkedIn</a>
         <a href="https://github.com/predator229" class="cta-button">💻 GitHub</a>
     </section>

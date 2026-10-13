@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeNavbar();
     initializeSmoothScrolling();
     initializeAnimations();
+    initializeEmailLink();
 });
 
 function initializeLanguage() {
@@ -69,6 +70,20 @@ function translatePage() {
     });
 }
 
+// The address is only assembled when the visitor clicks, so it never appears
+// in the page source (light protection against e-mail harvesting bots).
+const EMAIL_PARTS = ['damienzpadonou', 'gmail', 'com'];
+
+function initializeEmailLink() {
+    document.querySelectorAll('a[data-email]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const address = EMAIL_PARTS[0] + '@' + EMAIL_PARTS[1] + '.' + EMAIL_PARTS[2];
+            window.location.href = 'mailto:' + address;
+        });
+    });
+}
+
 function initializeCursorGlow() {
     const cursorGlow = document.getElementById('cursorGlow');
     // Hidden on touch devices by CSS (@media (hover: none)).
@@ -107,7 +122,7 @@ function initializeNavbar() {
 }
 
 function initializeSmoothScrolling() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    document.querySelectorAll('a[href^="#"]:not([data-email])').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
@@ -250,6 +265,6 @@ window.addEventListener('load', function() {
 console.log(`
 🚀 Salut ! Tu inspectés le code ?
 👨‍💻 Je suis Damien Z. Padonou - FullStack Developer & AI Engineer
-💡 Si tu veux collaborer, contacte-moi : damienzipadonou@gmail.com
+💡 Si tu veux collaborer, contacte-moi via le bouton « Me Contacter »
 🌟 GitHub: https://github.com/predator229
 `);
