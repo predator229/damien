@@ -239,7 +239,7 @@
         </div>
     </section>
 
-    <section class="cta-section">
+    <section id="contact" class="cta-section">
         <h2 style="margin-bottom: 2rem; font-size: 2.5rem;" data-translate="cta.title">Prêt à collaborer ?</h2>
         <p style="font-size: 1.2rem; margin-bottom: 3rem; color: #b0b0b0;" data-translate="cta.subtitle">
             Parlons de votre prochain projet d'innovation technologique
