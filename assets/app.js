@@ -2,6 +2,8 @@ const translations = window.TRANSLATIONS;
 
 // Keys whose translations intentionally contain markup. Every other key is
 // rendered as plain text, so a translation can never inject HTML.
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 const HTML_TRANSLATION_KEYS = new Set(['about.specialty']);
 let currentLang = 'fr';
 
@@ -111,7 +113,7 @@ function initializeSmoothScrolling() {
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 target.scrollIntoView({
-                    behavior: 'smooth',
+                    behavior: prefersReducedMotion ? 'auto' : 'smooth',
                     block: 'start'
                 });
             }
@@ -120,6 +122,11 @@ function initializeSmoothScrolling() {
 }
 
 function initializeAnimations() {
+    // Reduced motion: content is shown immediately, no entrance or counter animation.
+    if (prefersReducedMotion) {
+        return;
+    }
+
     // Intersection Observer pour les animations d'entrée
     const observerOptions = {
         threshold: 0.1,
@@ -213,6 +220,10 @@ if ('ontouchstart' in window) {
 let ticking = false;
 
 function updateOnScroll() {
+    if (prefersReducedMotion) {
+        ticking = false;
+        return;
+    }
     // Mettre à jour la position des éléments flottants
     const scrolled = window.pageYOffset;
     const parallax = document.querySelectorAll('.floating-element');
