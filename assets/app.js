@@ -69,16 +69,25 @@ function translatePage() {
 
 function initializeCursorGlow() {
     const cursorGlow = document.getElementById('cursorGlow');
+    // Hidden on touch devices by CSS (@media (hover: none)).
+    let pointerX = 0;
+    let pointerY = 0;
+    let frameRequested = false;
+
+    function renderGlow() {
+        cursorGlow.style.left = pointerX - 150 + 'px';
+        cursorGlow.style.top = pointerY - 150 + 'px';
+        frameRequested = false;
+    }
 
     document.addEventListener('mousemove', function(e) {
-        cursorGlow.style.left = e.clientX - 150 + 'px';
-        cursorGlow.style.top = e.clientY - 150 + 'px';
+        pointerX = e.clientX;
+        pointerY = e.clientY;
+        if (!frameRequested) {
+            frameRequested = true;
+            requestAnimationFrame(renderGlow);
+        }
     });
-
-    // Masquer sur mobile
-    if (window.innerWidth <= 768) {
-        cursorGlow.style.display = 'none';
-    }
 }
 
 function initializeNavbar() {
@@ -188,15 +197,6 @@ function animateCounter(element) {
 
     update();
 }
-
-window.addEventListener('resize', function() {
-    const cursorGlow = document.getElementById('cursorGlow');
-    if (window.innerWidth <= 768) {
-        cursorGlow.style.display = 'none';
-    } else {
-        cursorGlow.style.display = 'block';
-    }
-});
 
 if ('ontouchstart' in window) {
     document.querySelectorAll('.skill-tag, .cta-button, .lang-btn').forEach(element => {
